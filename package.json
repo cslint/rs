@@ -1,0 +1,21 @@
+{
+  "name": "rs",
+  "version": "1.0.0",
+  "description": "webhook demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "mock": "ngrok http 8088"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "ngrok": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
